@@ -14,3 +14,4 @@ def play_game(player2)
 end
 
 start_game(player1, player2)
+play_game(player1, player2)
