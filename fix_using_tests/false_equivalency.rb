@@ -12,11 +12,10 @@ def prompt_user
 end
 
 def selection(num)
-  require 'pry'
-  if num == "1"
-     binding.pry
+  if num == 1
+     #binding.pry
      return "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num == "2"
+  elsif num == 2
      return "HAM HAM HAM IN MY TUMMY"
   end
 
