@@ -3,9 +3,9 @@ require 'pry'
 string = "surprise!"
 
 def snake_it_up(string)
-  binding.pry
+  #binding.pry
   if string[0] == "s"
-    binding.pry
+    #binding.pry
     10.times {"s" + string}
   else
     binding.pry
