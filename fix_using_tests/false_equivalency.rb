@@ -25,6 +25,6 @@ end
 def runner
   prompt_user
   binding.pry
-  selection(get_user_input)
+  selection(2)#get_user_input)
 end
 runner
