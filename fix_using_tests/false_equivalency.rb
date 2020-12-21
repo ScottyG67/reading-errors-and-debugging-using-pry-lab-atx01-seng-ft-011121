@@ -1,5 +1,5 @@
 # don't forget to add: require 'pry'
-require 'pry'
+#require 'pry'
 
 def get_user_input
   gets.chomp
@@ -12,6 +12,7 @@ def prompt_user
 end
 
 def selection(num)
+  require 'pry'
   if num == "1"
      binding.pry
      return "YUM YUM MUNCH MUNCH MUNCH"
