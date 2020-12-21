@@ -1,6 +1,6 @@
 # don't forget to add: require 'pry'
 require 'pry'
-string = "urprise!"
+#string = "urprise!"
 
 def snake_it_up(string)
   #binding.pry
@@ -8,10 +8,10 @@ def snake_it_up(string)
     #binding.pry
     10.times {string.prepend("s")}
   else
-   binding.pry
+   #binding.pry
     string
   end
-  #binding.pry
+  string
 end
 
-snake_it_up(string)
+#snake_it_up(string)
