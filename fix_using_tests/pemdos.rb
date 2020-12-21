@@ -6,7 +6,7 @@ def snake_it_up(string)
   #binding.pry
   if string[0] == "s"
     #binding.pry
-    10.times {string.concat("s", string)}
+    10.times {string.prepend("s")}
   else
     binding.pry
     string
